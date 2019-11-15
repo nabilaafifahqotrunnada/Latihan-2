@@ -1,0 +1,20 @@
+package latihan2;
+
+/**
+ *
+ * @author nabila
+ */
+public class UjiBus {
+    public static void main(String[] args) {
+        Bus busC = new Bus(40);
+        
+        busC.addPenumpang(15);
+        busC.cetak();
+        
+        busC.addPenumpang(5);
+        busC.cetak();
+        
+        busC.addPenumpang(26);
+        busC.cetak();
+    }
+}
